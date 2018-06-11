@@ -1,7 +1,5 @@
 package sk.dejw.android.jokelib;
 
-import java.util.Random;
-
 public class TellAJoke {
 
     private String[] jokes = {

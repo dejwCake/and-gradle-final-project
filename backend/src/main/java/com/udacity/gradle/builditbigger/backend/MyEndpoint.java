@@ -6,6 +6,8 @@ import com.google.api.server.spi.config.ApiNamespace;
 
 import javax.inject.Named;
 
+import sk.dejw.android.jokelib.TellAJoke;
+
 /** An endpoint class we are exposing */
 @Api(
         name = "myApi",
@@ -26,5 +28,4 @@ public class MyEndpoint {
 
         return response;
     }
-
 }
